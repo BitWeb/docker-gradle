@@ -1,8 +1,9 @@
-FROM java:8
+FROM bitweb/java:8
+MAINTAINER BitWeb
 
 MAINTAINER rain@bitweb.ee
 
-ENV GRADLE_VERSION=3.4
+ENV GRADLE_VERSION=3.4.1
 
 RUN apt-get update && apt-get install -qq unzip
 
@@ -10,4 +11,3 @@ RUN wget https://services.gradle.org/distributions/gradle-${GRADLE_VERSION}-bin.
     && unzip gradle-${GRADLE_VERSION}-bin.zip \
     && mv gradle-${GRADLE_VERSION} /opt/gradle \
     && rm gradle-${GRADLE_VERSION}-bin.zip
-    
