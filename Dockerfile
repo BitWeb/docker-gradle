@@ -3,7 +3,7 @@ MAINTAINER BitWeb
 
 MAINTAINER rain@bitweb.ee
 
-ENV GRADLE_VERSION=3.4.1
+ENV GRADLE_VERSION=3.5
 
 RUN apt-get update && apt-get install -qq unzip
 
