@@ -1,4 +1,4 @@
-FROM bitweb/java:8
+FROM bitweb/java:9
 MAINTAINER BitWeb
 
 MAINTAINER rain@bitweb.ee
