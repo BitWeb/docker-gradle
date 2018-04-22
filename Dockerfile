@@ -1,4 +1,4 @@
-FROM frolvlad/alpine-oraclejdk8:clean
+FROM frolvlad/alpine-oraclejdk8:cleaned
 MAINTAINER BitWeb
 
 MAINTAINER rain@bitweb.ee
