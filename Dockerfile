@@ -1,4 +1,4 @@
-FROM frolvlad/alpine-oraclejdk8:cleaned
+FROM frolvlad/alpine-oraclejdk9:cleaned
 
 # Code below taken from: https://github.com/keeganwitt/docker-gradle/blob/master/jdk8-alpine/Dockerfile
 
