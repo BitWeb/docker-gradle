@@ -5,7 +5,7 @@ FROM frolvlad/alpine-oraclejdk8:cleaned
 CMD ["gradle"]
 
 ENV GRADLE_HOME /opt/gradle
-ENV GRADLE_VERSION 4.7
+ENV GRADLE_VERSION 4.8
 
 ARG GRADLE_DOWNLOAD_SHA256=fca5087dc8b50c64655c000989635664a73b11b9bd3703c7d6cabd31b7dcdb04
 RUN set -o errexit -o nounset \
